@@ -1,0 +1,517 @@
+jquery-dbg.js:10224 
+        
+        
+       POST https://78f549dftrial.launchpad.cfapps.us10.hana.ondemand.com/171fb547-ac8b-41f3-8988-786cd51d36c1.hanaapp.opensapawsweek3ui/~171123211115+0000~/odata/v4/business-partner/$batch 502 (Bad Gateway)
+send @ jquery-dbg.js:10224
+ajax @ jquery-dbg.js:9805
+jQuery.ajax @ jquery-compat-dbg.js:338
+p @ _Requestor-dbg.js:1993
+(anônimo) @ _Requestor-dbg.js:2061
+y.sendRequest @ _Requestor-dbg.js:1976
+y.sendBatch @ _Requestor-dbg.js:1910
+y.processBatch @ _Requestor-dbg.js:1365
+(anônimo) @ _Requestor-dbg.js:2162
+(anônimo) @ SyncPromise-dbg.js:314
+e @ SyncPromise-dbg.js:63
+r @ SyncPromise-dbg.js:230
+r.then @ SyncPromise-dbg.js:313
+y.submitBatch @ _Requestor-dbg.js:2155
+T._submitBatch @ ODataModel-dbg.js:435
+n @ ODataModel-dbg.js:618
+setTimeout (assíncrono)
+(anônimo) @ ODataModel-dbg.js:634
+setTimeout (assíncrono)
+T.addPrerenderingTask @ ODataModel-dbg.js:633
+onCreateGroup @ ODataModel-dbg.js:377
+y.getOrCreateBatchQueue @ _Requestor-dbg.js:957
+y.addChangeToGroup @ _Requestor-dbg.js:183
+(anônimo) @ _Requestor-dbg.js:1660
+y.relocateAll @ _Requestor-dbg.js:1658
+T.submitBatch @ ODataModel-dbg.js:2818
+t @ EditFlow-dbg.js:1165
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.620699 Failed to update path /BusinessPartner(BusinessPartner='1004155',IsActiveEntity=false)/to_BusinessPartnerAddress(BusinessPartner_BusinessPartner='1004155',AddressID='1',IsActiveEntity=false)/StreetName - Error: HTTP request was not processed because $batch failed
+    at https://sapui5.hana.ondemand.com/1.120.1/resources/sap/ui/core/library-preload.js:2322:12023 sap.ui.model.odata.v4.Context
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+T.reportError @ ODataModel-dbg.js:2368
+g @ Context-dbg.js:519
+(anônimo) @ _Cache-dbg.js:2256
+load (assíncrono)
+send @ jquery-dbg.js:10191
+ajax @ jquery-dbg.js:9805
+jQuery.ajax @ jquery-compat-dbg.js:338
+p @ _Requestor-dbg.js:1993
+(anônimo) @ _Requestor-dbg.js:2061
+y.sendRequest @ _Requestor-dbg.js:1976
+y.sendBatch @ _Requestor-dbg.js:1910
+y.processBatch @ _Requestor-dbg.js:1365
+(anônimo) @ _Requestor-dbg.js:2162
+(anônimo) @ SyncPromise-dbg.js:314
+e @ SyncPromise-dbg.js:63
+r @ SyncPromise-dbg.js:230
+r.then @ SyncPromise-dbg.js:313
+y.submitBatch @ _Requestor-dbg.js:2155
+T._submitBatch @ ODataModel-dbg.js:435
+n @ ODataModel-dbg.js:618
+setTimeout (assíncrono)
+(anônimo) @ ODataModel-dbg.js:634
+setTimeout (assíncrono)
+T.addPrerenderingTask @ ODataModel-dbg.js:633
+onCreateGroup @ ODataModel-dbg.js:377
+y.getOrCreateBatchQueue @ _Requestor-dbg.js:957
+y.addChangeToGroup @ _Requestor-dbg.js:183
+(anônimo) @ _Requestor-dbg.js:1660
+y.relocateAll @ _Requestor-dbg.js:1658
+T.submitBatch @ ODataModel-dbg.js:2818
+t @ EditFlow-dbg.js:1165
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.633899 Error while updating the document -  
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+(anônimo) @ EditFlow-dbg.js:366
+Promise.then (assíncrono)
+e @ EditFlow-dbg.js:1813
+t @ EditFlow-dbg.js:330
+e @ EditFlow-dbg.js:1799
+(anônimo) @ ControllerExtension-dbg.js:102
+i.fireEvent @ EventProvider-dbg.js:241
+s.firePatchSent @ ODataParentBinding-dbg.js:177
+v @ Context-dbg.js:541
+a @ _Cache-dbg.js:2206
+i @ _Requestor-dbg.js:1271
+i @ _Requestor-dbg.js:1269
+i @ _Requestor-dbg.js:1269
+y.processBatch @ _Requestor-dbg.js:1356
+(anônimo) @ _Requestor-dbg.js:2162
+(anônimo) @ SyncPromise-dbg.js:314
+e @ SyncPromise-dbg.js:63
+r @ SyncPromise-dbg.js:230
+r.then @ SyncPromise-dbg.js:313
+y.submitBatch @ _Requestor-dbg.js:2155
+T._submitBatch @ ODataModel-dbg.js:435
+n @ ODataModel-dbg.js:618
+setTimeout (assíncrono)
+(anônimo) @ ODataModel-dbg.js:634
+setTimeout (assíncrono)
+T.addPrerenderingTask @ ODataModel-dbg.js:633
+onCreateGroup @ ODataModel-dbg.js:377
+y.getOrCreateBatchQueue @ _Requestor-dbg.js:957
+y.addChangeToGroup @ _Requestor-dbg.js:183
+(anônimo) @ _Requestor-dbg.js:1660
+y.relocateAll @ _Requestor-dbg.js:1658
+T.submitBatch @ ODataModel-dbg.js:2818
+t @ EditFlow-dbg.js:1165
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.635399 $batch failed - Error: 502 Bad Gateway: Registered endpoint failed to handle the request.
+
+    at Object.createError (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/ui/core/library-preload.js:2292:3604)
+    at Object.<anonymous> (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/ui/core/library-preload.js:2322:19041)
+    at Object.<anonymous> (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/fiori/appruntime-min-1.js:544:9596)
+    at u (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/fiori/appruntime-min-1.js:590:25639)
+    at Object.fireWith [as rejectWith] (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/fiori/appruntime-min-1.js:590:26474)
+    at k (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/fiori/appruntime-min-1.js:590:84147)
+    at XMLHttpRequest.<anonymous> (https://sapui5.hana.ondemand.com/1.120.1/resources/sap/fiori/appruntime-min-1.js:590:86804) sap.ui.model.odata.v4.ODataModel
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+T.reportError @ ODataModel-dbg.js:2368
+(anônimo) @ ODataModel-dbg.js:436
+Promise.then (assíncrono)
+r.then @ SyncPromise-dbg.js:318
+r.catch @ SyncPromise-dbg.js:255
+T._submitBatch @ ODataModel-dbg.js:435
+n @ ODataModel-dbg.js:618
+setTimeout (assíncrono)
+(anônimo) @ ODataModel-dbg.js:634
+setTimeout (assíncrono)
+T.addPrerenderingTask @ ODataModel-dbg.js:633
+onCreateGroup @ ODataModel-dbg.js:377
+y.getOrCreateBatchQueue @ _Requestor-dbg.js:957
+y.addChangeToGroup @ _Requestor-dbg.js:183
+(anônimo) @ _Requestor-dbg.js:1660
+y.relocateAll @ _Requestor-dbg.js:1658
+T.submitBatch @ ODataModel-dbg.js:2818
+t @ EditFlow-dbg.js:1165
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.637399 Failed to execute /BusinessPartner(BusinessPartner='1004155',IsActiveEntity=false)/BusinessPartnerService.draftPrepare(...) - Error: HTTP request was not processed because $batch failed
+    at https://sapui5.hana.ondemand.com/1.120.1/resources/sap/ui/core/library-preload.js:2322:12023 sap.ui.model.odata.v4.ODataContextBinding
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+T.reportError @ ODataModel-dbg.js:2368
+(anônimo) @ ODataContextBinding-dbg.js:277
+Promise.then (assíncrono)
+r.then @ SyncPromise-dbg.js:318
+r.catch @ SyncPromise-dbg.js:255
+l._execute @ ODataContextBinding-dbg.js:275
+l.execute @ ODataContextBinding-dbg.js:998
+M @ draft-dbg.js:224
+S @ draft-dbg.js:510
+e @ TransactionHelper-dbg.js:614
+t @ EditFlow-dbg.js:1167
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.637899 Failed to execute /BusinessPartner(BusinessPartner='1004155',IsActiveEntity=false)/BusinessPartnerService.draftActivate(...) - Error: HTTP request was not processed because $batch failed
+    at https://sapui5.hana.ondemand.com/1.120.1/resources/sap/ui/core/library-preload.js:2322:12023 sap.ui.model.odata.v4.ODataContextBinding
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+T.reportError @ ODataModel-dbg.js:2368
+(anônimo) @ ODataContextBinding-dbg.js:277
+Promise.then (assíncrono)
+r.then @ SyncPromise-dbg.js:318
+r.catch @ SyncPromise-dbg.js:255
+l._execute @ ODataContextBinding-dbg.js:275
+l.execute @ ODataContextBinding-dbg.js:998
+C @ draft-dbg.js:159
+S @ draft-dbg.js:512
+e @ TransactionHelper-dbg.js:614
+t @ EditFlow-dbg.js:1167
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:33:47.638800 Error while executing the operation - Error: HTTP request was not processed because $batch failed  
+ Error: HTTP request was not processed because $batch failed
+    at _Requestor-dbg.js:1369:25
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+(anônimo) @ draft-dbg.js:227
+Promise.catch (assíncrono)
+M @ draft-dbg.js:226
+S @ draft-dbg.js:510
+e @ TransactionHelper-dbg.js:614
+t @ EditFlow-dbg.js:1167
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+jquery-dbg.js:10224 Falha ao carregar XHR: POST "https://78f549dftrial.launchpad.cfapps.us10.hana.ondemand.com/171fb547-ac8b-41f3-8988-786cd51d36c1.hanaapp.opensapawsweek3ui/~171123211115+0000~/odata/v4/business-partner/$batch".
+send @ jquery-dbg.js:10224
+ajax @ jquery-dbg.js:9805
+jQuery.ajax @ jquery-compat-dbg.js:338
+p @ _Requestor-dbg.js:1993
+(anônimo) @ _Requestor-dbg.js:2061
+y.sendRequest @ _Requestor-dbg.js:1976
+y.sendBatch @ _Requestor-dbg.js:1910
+y.processBatch @ _Requestor-dbg.js:1365
+(anônimo) @ _Requestor-dbg.js:2162
+(anônimo) @ SyncPromise-dbg.js:314
+e @ SyncPromise-dbg.js:63
+r @ SyncPromise-dbg.js:230
+r.then @ SyncPromise-dbg.js:313
+y.submitBatch @ _Requestor-dbg.js:2155
+T._submitBatch @ ODataModel-dbg.js:435
+n @ ODataModel-dbg.js:618
+setTimeout (assíncrono)
+(anônimo) @ ODataModel-dbg.js:634
+setTimeout (assíncrono)
+T.addPrerenderingTask @ ODataModel-dbg.js:633
+onCreateGroup @ ODataModel-dbg.js:377
+y.getOrCreateBatchQueue @ _Requestor-dbg.js:957
+y.addChangeToGroup @ _Requestor-dbg.js:183
+(anônimo) @ _Requestor-dbg.js:1660
+y.relocateAll @ _Requestor-dbg.js:1658
+T.submitBatch @ ODataModel-dbg.js:2818
+t @ EditFlow-dbg.js:1165
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+Log-dbg.js:499 2023-11-18 11:34:15.693699 busy lock for id-1700317790855-18/busy with value 2 timed out after 30 seconds! -  
+g @ Log-dbg.js:499
+t.error @ Log-dbg.js:249
+(anônimo) @ BusyLocker-dbg.js:58
+setTimeout (assíncrono)
+s @ BusyLocker-dbg.js:57
+_updateLock @ BusyLocker-dbg.js:87
+lock @ BusyLocker-dbg.js:76
+e @ TransactionHelper-dbg.js:33
+e @ TransactionHelper-dbg.js:613
+t @ EditFlow-dbg.js:1167
+await in t (assíncrono)
+(anônimo) @ ControllerExtension-dbg.js:102
+e @ ObjectPageController-dbg.controller.js:1049
+await in e (assíncrono)
+y @ ExpressionParser-dbg.js:412
+(anônimo) @ ExpressionParser-dbg.js:735
+parse @ ExpressionParser-dbg.js:908
+a.parseExpression @ BindingParser-dbg.js:750
+(anônimo) @ EventHandlerResolver-dbg.js:168
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+trigger @ CommandExecution-dbg.js:120
+o @ EventHandlerResolver-dbg.js:93
+i.fireEvent @ EventProvider-dbg.js:241
+h.fireEvent @ Element-dbg.js:672
+(anônimo) @ ManagedObjectMetadata-dbg.js:826
+S.ontap @ Button-dbg.js:599
+h._handleEvent @ Element-dbg.js:365
+N._handleEvent @ UIArea-dbg.js:1050
+dispatch @ jquery-dbg.js:5430
+c @ jquery-mobile-custom-dbg.js:1907
+d @ jquery-mobile-custom-dbg.js:2030
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
+trigger @ jquery-dbg.js:8823
+(anônimo) @ jquery-dbg.js:8901
+each @ jquery-dbg.js:385
+each @ jquery-dbg.js:207
+trigger @ jquery-dbg.js:8900
+j @ jquery-mobile-custom-dbg.js:1455
+H @ jquery-mobile-custom-dbg.js:1560
+dispatch @ jquery-dbg.js:5430
+y.handle @ jquery-dbg.js:5234
